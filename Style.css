@@ -103,3 +103,87 @@
     margin: 10px 15px;
     padding: 5px 10px;
 }
+
+/* This style is allocate for Main Section.. */
+
+#i-main {
+    height: 725px;
+    background-color: cornflowerblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.Main_Container {
+    height: 700px;
+    width: 85%;
+    background-color: lightblue;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 1.2rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Main-Content_Container, .Section-Article_Container {
+    width: 100%;
+}
+
+#heading-main_container {
+    font-size: 2rem;
+    padding: 15px 0 0 20px;
+}
+
+#i-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#i-article {
+    height: 95%;
+    width: 60%;
+    background-color: beige;
+    border-radius: 1.2rem;
+    box-shadow: 5px 5px 20px black;
+    padding: 10px 20px 0;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+#i-aside {
+    height: 95%;
+    width: 35%;
+    border-radius: 1.2rem;
+    box-shadow: 5px 5px 20px black;
+    background-color: darkgray;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#heading-aside_container {
+    padding: 7px 5px 3px;
+    border-bottom: 3px solid;
+}
+
+#content-aside_container {
+    height: 87%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    gap: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#content-aside_container img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 1.2rem;
+}
