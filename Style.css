@@ -9,3 +9,68 @@
     display: flex;
     flex-direction: column;
 }
+
+/* All Container are set by Flex */
+
+.Container {
+    width: 100%;
+    display: flex;
+}
+
+/* This style is allocate for Header Section.. */
+
+#i-header {
+    height: 500px;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header_Container {
+    height: 95%;
+    width: 85%;
+    background-color: blue;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 1.2rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#bg-img_container {
+    height: 82.6%;
+    width: 95%;
+    background-color: chartreuse;
+    border-radius: 1.2rem;
+    margin: 0px auto auto;
+}
+
+#prof-img_container {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 100%;
+    position: absolute;
+    top: 59.5%;
+    left: 4.85rem;
+    overflow: hidden;
+}
+
+#prof-img_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transform: scale(1.2);
+}
+
+.Header-Id_Container {
+    width: 70.97%;
+    background-color: bisque;
+    border-top: 3px solid grey;
+    font-size: 3.4rem;
+    padding: 5px 5px 5px 20px;
+    position: absolute;
+    top: 82%;
+    left: 22.97%;
+}
